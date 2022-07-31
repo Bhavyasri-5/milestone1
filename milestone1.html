@@ -1,0 +1,64 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Bhavyasri-5 
+PunatiTejaswi
+/
+milestone1
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+milestone1/js1.html
+@PunatiTejaswi
+PunatiTejaswi Add files via upload
+Latest commit 17d9018 yesterday
+ History
+ 1 contributor
+21 lines (19 sloc)  783 Bytes
+
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body style="background-color:pink; color:black; text-align: center;">
+<h1>Guess the number between 1 and 10.</h1><br><br><br>
+
+<input type="number" id="UserInput">
+<button id="Submit" onclick="randomNumberr()">click</button>
+<p id="Output"></p>
+<script>
+document.getElementById('Output').style.fontSize='30px';
+function randomNumberr() {
+let randomNumber = Math.floor(Math.random() * 10)+1;
+document.getElementById("Output").innerHTML = randomNumber;
+console.log(randomNumber);
+
+let UserInput = document.getElementById("UserInput").value;
+if (UserInput == randomNumber) {
+document.getElementById("Output").innerHTML = "Matched  "   +…
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You have no unread notifications
